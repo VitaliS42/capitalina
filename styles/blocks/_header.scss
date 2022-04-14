@@ -1,0 +1,28 @@
+.header {
+    background:#faac68;
+    backdrop-filter: blur(88px);    
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    &__text {
+        font-family: $textFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #F5F6FA;
+    }
+    &__button {
+        background: #282828;
+        margin-left: 40px;
+        text-decoration: none;
+        padding: 16px 24px 15px;
+        border: 1px solid #282828;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+}
